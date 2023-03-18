@@ -43,6 +43,7 @@ fig = px.scatter_mapbox(
     lon="Longitude",
     color="Location",
     zoom=11,
+    color_discrete_map={"Keukenhof Park":'rgb(0,0,255)', "Airnbnb Listing":'rgb(255,0,0)'},
     height=500,
     width=800,
     hover_name="Price",
